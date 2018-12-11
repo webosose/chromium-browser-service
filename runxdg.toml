@@ -14,6 +14,7 @@ path = "/opt/chromium68/chrome"
 
 params = [
   "--in-process-gpu",
-  "--user-data-dir=/opt/chromium68/workdir"
+  "--user-data-dir=/opt/chromium68/workdir",
+  "--no-sandbox"
 ]
 
