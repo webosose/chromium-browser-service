@@ -11,6 +11,7 @@
     <param name="homescreen" value="ws" />
   </feature>
   <feature name="urn:AGL:widget:required-permission">
+    <param name="urn:AGL:permission::public:display" value="required" />
     <param name="urn:AGL:permission::public:no-htdocs" value="required" />
   </feature>
 </widget>
